@@ -5,9 +5,9 @@ using IzzoLib;
 
 /// <sumary>
 /// This class updates all TimedAction. It also registers TimedAction to a List.
+/// </sumary>
 /// <seealso cref="TimedAction">
 /// <seealso cref="TimedActionFactory">
-/// </sumary>
 namespace IzzoLib
 {
 	public static class TimeManager {

@@ -5,8 +5,8 @@ using IzzoLib;
 
 /// <sumary>
 /// This class is used to create a TimedAction. Calls are all static.
-/// <seealso cref="TimedAction">
 /// </sumary>
+/// <seealso cref="TimedAction">
 namespace IzzoLib
 {
 	public class TimedActionFactory {

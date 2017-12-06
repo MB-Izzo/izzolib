@@ -7,9 +7,9 @@ using IzzoLib;
 /// A TimedAction has a duration, can be played, paused, and reversed. 
 /// It is updated by TimeManager. 
 /// Can be created by a TimedActionFactory.
+/// </sumary>
 /// <seealso cref="TimeManager">
 /// <seealso cref="TimedActionFactory">
-/// </sumary>
 namespace IzzoLib
 {
 	public class TimedAction {

@@ -7,8 +7,8 @@ using IzzoLib;
 /// Create a StateMachine object wherever you want. Use OverrideCurrentState to change state.
 /// Create your states by implementing IState interface.
 /// Adapt the public enum to your needs.
-/// <seealso cref="IState">
 /// </summary>
+/// <seealso cref="IState">
 namespace IzzoLib
 {
 	public class StateMachine {
@@ -51,9 +51,6 @@ namespace IzzoLib
 
 	public enum eStateType
 	{
-		none = 0,
-		moving,
-		using_element,
-		idle
+		// Fill this with your need.
 	}
 }
