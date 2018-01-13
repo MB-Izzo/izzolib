@@ -18,7 +18,7 @@ namespace IzzoLib
 		public static TimedAction CreateTimedAction(float duration, eTimeGroup group, Action<TimedAction, float> update_callback = null, Action<TimedAction> end_callback = null)
 		{
 			TimedAction new_action = new TimedAction (duration, update_callback, end_callback);
-			TimeManager.instance.AddAction (new_action, group);
+			TimeManager.instance.RegisterTimedAction (new_action, group);
 			return new_action;
 		}
 	}

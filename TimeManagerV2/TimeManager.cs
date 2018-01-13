@@ -36,7 +36,7 @@ namespace IzzoLib
 		/// </summary>
 		/// <param name="new_action">New action to add.</param>
 		/// <param name="group">Group of the TimedAction that is being added.</param>
-		public void AddAction (TimedAction new_action, eTimeGroup group = eTimeGroup.common)
+		public void RegisterTimedAction (TimedAction new_action, eTimeGroup group = eTimeGroup.common)
 		{
 			// if group does not exit, create it.
 			if (_next_actions.ContainsKey (group) == false)
